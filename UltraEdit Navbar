@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        display: flex;
+        margin: 10px 0;
+        justify-content: space-between;
+       
+        
+        
+    }
+    div{
+        margin: 30px 12px;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        font-size: 20px;
+    }
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+    h2{
+        text-align: center;
+
+    }
+    
+    .border{
+        display: block;
+        margin: 10px 50px;
+        padding: 10px 30px;
+    }  
+    button{
+        margin: 10px 20px;
+        padding: 10px 25px;
+    text-align: end;
+        border-radius: 5px;
+        background-color: aqua;
+        color: white;
+        font-size: 26px;
+    }
+     .logo{
+        height: 80px;
+        width: 160px;
+        
+    }
+  
+    
+</style>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp">
+           <pre>                                               </pre>
+            <div class="products">Products <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANZJREFUSEvt081pAlEUhuFHsIcEVBJMmggi9mEDggXYRlZu3KWUECRN+I+C6SGIHBhBYmbmuhBczF0O33zvOe/Mrbnxqd24XwUoNVwpun9FI3zgJ2fUB/TxnrdK0UceYow5etj9KWngEy8YYPIfpAjwiC+8Yo3OGSTKp3jCDF3srwVEPiDfeD6DxPNT+QpveeURTLkHzUxFG0vU0cIiU7ct+pVSAPF+QEJXbBInJg8theWpG5wGDEjo+k0tvxYQ+djggE3pDcsCqYpS+y5yFaBUXaWoVNERTkIfGckggW4AAAAASUVORK5CYII="/></div>
+            <div class="business">For Business<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANZJREFUSEvt081pAlEUhuFHsIcEVBJMmggi9mEDggXYRlZu3KWUECRN+I+C6SGIHBhBYmbmuhBczF0O33zvOe/Mrbnxqd24XwUoNVwpun9FI3zgJ2fUB/TxnrdK0UceYow5etj9KWngEy8YYPIfpAjwiC+8Yo3OGSTKp3jCDF3srwVEPiDfeD6DxPNT+QpveeURTLkHzUxFG0vU0cIiU7ct+pVSAPF+QEJXbBInJg8theWpG5wGDEjo+k0tvxYQ+djggE3pDcsCqYpS+y5yFaBUXaWoVNERTkIfGckggW4AAAAASUVORK5CYII="/></div>
+            <div class="resources">Resources<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANZJREFUSEvt081pAlEUhuFHsIcEVBJMmggi9mEDggXYRlZu3KWUECRN+I+C6SGIHBhBYmbmuhBczF0O33zvOe/Mrbnxqd24XwUoNVwpun9FI3zgJ2fUB/TxnrdK0UceYow5etj9KWngEy8YYPIfpAjwiC+8Yo3OGSTKp3jCDF3srwVEPiDfeD6DxPNT+QpveeURTLkHzUxFG0vU0cIiU7ct+pVSAPF+QEJXbBInJg8theWpG5wGDEjo+k0tvxYQ+djggE3pDcsCqYpS+y5yFaBUXaWoVNERTkIfGckggW4AAAAASUVORK5CYII="/></div>
+            <div class="Support">Support<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANZJREFUSEvt081pAlEUhuFHsIcEVBJMmggi9mEDggXYRlZu3KWUECRN+I+C6SGIHBhBYmbmuhBczF0O33zvOe/Mrbnxqd24XwUoNVwpun9FI3zgJ2fUB/TxnrdK0UceYow5etj9KWngEy8YYPIfpAjwiC+8Yo3OGSTKp3jCDF3srwVEPiDfeD6DxPNT+QpveeURTLkHzUxFG0vU0cIiU7ct+pVSAPF+QEJXbBInJg8theWpG5wGDEjo+k0tvxYQ+djggE3pDcsCqYpS+y5yFaBUXaWoVNERTkIfGckggW4AAAAASUVORK5CYII="/></div>
+            <div class="company">Our Company<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANZJREFUSEvt081pAlEUhuFHsIcEVBJMmggi9mEDggXYRlZu3KWUECRN+I+C6SGIHBhBYmbmuhBczF0O33zvOe/Mrbnxqd24XwUoNVwpun9FI3zgJ2fUB/TxnrdK0UceYow5etj9KWngEy8YYPIfpAjwiC+8Yo3OGSTKp3jCDF3srwVEPiDfeD6DxPNT+QpveeURTLkHzUxFG0vU0cIiU7ct+pVSAPF+QEJXbBInJg8theWpG5wGDEjo+k0tvxYQ+djggE3pDcsCqYpS+y5yFaBUXaWoVNERTkIfGckggW4AAAAASUVORK5CYII="/></div>
+            <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR1JREFUSEvt1E0uREEQwPHfnMJC4jNCWNqRuIG4jI0bcCAuICwtJhJi4WMh4RJIyXvS2pt5Ncbs9O516v3/1V1VPTDjNZgx3ySCOZziDft4zSSXFQT8EisN9B47GUlGEPBzrOGpESziDnt9kj5BmfkzdhvBBebRe5Jxgi54eYKUZJRgHLytbVxTr6RLkIGnJbVgEnhKUgrKbomfl/GY6XUs4aGJ/dZdpeAaWwWwr8Nq93uxcYXt+C4ht1j/I8ENNmtBy24zaeUHOMZGlXJADnHW7Nf/fW53XUMd+IKoT9eKQVudVtCZGer9X5/gX/Cjdqm7naYG8WIuJCe4DovJjxfga3W1afT9STV0Gd8QR8VcjJyDDCwdM+l7kwa3gR/DDlQZ8ZOLqAAAAABJRU5ErkJggg=="/></div>
+
+            <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbtJREFUSEu11UuoTVEcx/HPJSN5pCRmTE28pga6IROPklC3hJIiiUsMUIrIW4kiqRsZKCaiZICZkJiZGBl4FTFwB5f11zq1ne46e+ucu0b7v9vr//0/f7vPGJ++MfavBJiOvViIeTmIV3iOM/jcNLDRAAO4iCkFJ1+xGfeaQNoBO3EhX7yDS3ic7f4U+Q6szvZG3KqDVAFz8A7jcnlOFy4fTu+P4Cdm41MnSBUQ0W7HbayviewBluMQjjYFfMDM3NTXNYBleIgXWNQUMIwJKaLxKbKRGsA0fMH3DsPw10W1RD8wEZNSD+K505mMb/iIGU0zeIu5WIxnNYAleboeYWlTwDEcSD24izU1gKh/9CF2ZqgpYBbe5z4M4lTh4gnsQ2z2gv/Zg/h2E65XFu08nmZ7FbZhRbbP5n3pOBCjScW6NK5XMLUQXUzO5ZxF9G0/7pcyKYldTMaeLHbzU29+4SWe4FoWuxC+1g6Edu3C73ZQN3K9sk3wzqXR3d1LQPi6iQ0Vp8dxsArpJoPwE5sfkLUVp1HCrS27W0DLz1VsycY/WfQKEBJ/A29wspclqtuz4j+59mLTD3pVoiLvD9ByShl/aCxCAAAAAElFTkSuQmCC"></div>
+        </nav>
+        
+    </header>
+    <div class="border"><h1>Download UltraEdit for Windows </h1>
+        <h2>
+            Download and try UltraEdit before you buy it! This download includes the full Windows version of the text editor.
+        </h2><br><br>
+        <button >Download Mac or Linux Version</button></div>
+       
+    
+</body>
+</html>
